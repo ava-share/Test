@@ -1,0 +1,17 @@
+Tested on: 
+Ubuntu 18.04.06 LTS
+ROS melodic
+Python 3.8.18
+
+in terminal: 
+cd catkin_ws/src/laneatt_ros
+
+
+conda activate laneatt
+
+
+python main.py test --exp_name laneatt_r34_culane_final_annotations
+
+
+roslaunch laneatt_ros laneattLaunch.launch 
+

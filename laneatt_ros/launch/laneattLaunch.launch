@@ -1,0 +1,12 @@
+<launch>
+    <!-- Node -->
+
+    <arg name="image_topic" default="/kitti/camera_color_left/image_raw" />
+    <node name="laneattNode" pkg="laneatt_ros" type="main.py" output="screen" respawn="true">
+           <remap from="~image_topic" to="$(arg image_topic)"/>
+    </node>
+        
+
+</launch>
+
+
