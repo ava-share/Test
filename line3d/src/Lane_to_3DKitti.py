@@ -13,7 +13,6 @@ from tkinter import X
 from xml.etree.ElementTree import XML
 
 sys.path.insert(1, "/home/avalocal/catkin_ws/src/laneatt_ros")
-sys.path.insert(1, "/home/avalocal/Desktop/rosSeg/src/mmsegmentation_ros")
 
 import std_msgs.msg
 import rospy
@@ -21,7 +20,7 @@ import numpy as np
 from sensor_msgs.msg import PointCloud2, Image, CameraInfo
 import message_filters
 from laneatt_ros.msg import DetectedLane
-from laneatt_ros.msg import DetectedRoadArea
+#from laneatt_ros.msg import DetectedRoadArea
 import sensor_msgs.point_cloud2 as pc2
 import ros_numpy
 from scipy import interpolate
