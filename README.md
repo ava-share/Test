@@ -15,6 +15,11 @@ If you use the model below, nothing needs to be changed.
 Download the "experiments" folder from the link below and save it into the laneatt_ros/src folder. 
 https://drive.google.com/drive/folders/15FslYMfT4efufdZNE7CmZ3-H1I7T3qaJ?usp=share_link
 
+# Required Modifications
+Please modify the following lines in the code: 
+1. in Laneatt_ros/src/main.py change line 7 and 8 to fit your environment paths. 
+2. in Line3D/src/Lane_to_3DKitti.py change line 15 to fit your environment paths. 
+
 # Instructions
 1. conda activate *your_conda_environment* 
 2. roslaunch laneatt_ros laneattLaunch.launch
