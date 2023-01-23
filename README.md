@@ -3,7 +3,7 @@ This repo contains LaneAtt merged into ROS along with a script that converts the
 This implementation is currently based on the Kitti-Dataset converted to rosbags. The 2D to 3D fusion/conversion relies on the intrinsic and extrinsic matrices provided by the Kitti-Dataset for the right camera. Please ask Pardis for more information on this. 
 
 # Installation: 
-- For LaneAtt pre-requisites and installation follow instructions found in laneatt_ros. 
+- For LaneAtt pre-requisites and installation follow instructions found in laneatt_ros/src. 
 - then in the root of the folder (your_path_to/Test) run catkin_make (or catkin build) 
 - Finally, in your terminal run: source devel/setup.sh (or add this command to your .bashrc to be persistent) 
 
